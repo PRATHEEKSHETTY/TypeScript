@@ -41,15 +41,15 @@ function scopeDiff()
 }
 scopeDiff();
 
-//------------------------ Scope of var, let and const ------------------------>>
+//<<------------------------ Scope of var, let and const ------------------------
 
+//------------------------ Re-declaration 
 var city="New York"; // var is used to declare a variable in TypeScript
 var city="Germany"; // re-declaration of var is allowed
 var city="Delhi"; // re-declaration of var is allowed
-
-
 console.log(city);
 
+//------------------------ Re-declaration  ------------------------>>
 
 //<<------------------------Re-InItialization/RE-assignment of var, let and const ------------------------
 
